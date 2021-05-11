@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bimbel Avicenna</title>
+        
+        <!-- cdn Bootstrap 4.0 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/page.css">
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/image/nav_icon.png" class="image-navbar">
+                </a>
+                <div class="ml-auto">
+                    <h4 class="text-white">Welcome Avicenna's Bimbingan Belajar</h4>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./jadwal-kursus.html">Jadwal Kursus</a>
+                        </li>
+                        <li class="nav-item active-navbar">
+                            <a class="nav-link text-white" href="./register.html">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                    <div class="sidebar-sticky">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <span style="padding-left: 15px;">
+                                    Materi
+                                </span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./kimia.html">
+                                    Kimia
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./fisika.html">
+                                    Fisika
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./matematika.html">
+                                    Matematika
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./bahasa-inggris.html">
+                                    Bahasa Inggris
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <section role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                    <center>
+                        <h2>Register</h2>
+                    </center>
+                    <form class="form" id="form-register">
+                        <div class="form-group">
+                            <label for="id_peserta">Id-Peserta</label>
+                            <input type="text" class="form-control" id="id_peserta" placeholder="Masukkan Id-Peserta">
+                        </div>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama">
+                        </div>
+                        <div class="form-group">
+                            <label for="kelas">Kelas</label>
+                            <input type="text" class="form-control" id="kelas" placeholder="Masukkan Kelas">
+                        </div>
+                        <div class="form-group">
+                            <label for="jurusan">Jurusan</label>
+                            <input type="text" class="form-control" id="jurusan" placeholder="Masukkan Jurusan">
+                        </div>
+                        <div class="form-group">
+                            <label for="asal_sma">Asal SMA</label>
+                            <input type="text" class="form-control" id="asal_sma" placeholder="Masukkan Asal SMA">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="email" placeholder="Masukkan Email">
+                        </div>
+                        <div class="form-group">
+                          <label for="password">Password</label>
+                          <input type="password" class="form-control" id="password" placeholder="Masukkan Password">
+                        </div>
+                        <center>
+                            <button type="submit" class="btn btn-primary">Simpan</button>
+                        </center>
+                    </form>
+                </section>
+                <footer class="footer bg-dark">
+                    <div class="container">
+                        <center>
+                        <span class="text-white">NIM Anda - Nama Anda</span>
+                        </center>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $("#form-register").submit(function() {
+                var id_peserta = $("#id_peserta").val();
+                var nama       = $("#nama").val();
+                var kelas      = $("#kelas").val();
+                var jurusan    = $("#jurusan").val();
+                var asal_sma   = $("#asal_sma").val();
+                var email      = $("#email").val();
+                var password   = $("#password").val();
+
+                if(id_peserta==""){
+                    alert("Mohon isi Id Peserta.");
+                }else if(nama==""){
+                    alert("Mohon isi Nama.");
+                }else if(kelas==""){
+                    alert("Mohon isi Kelas.");
+                }else if(jurusan==""){
+                    alert("Mohon isi Jurusan.");
+                }else if(asal_sma==""){
+                    alert("Mohon isi Asal SMA.");
+                }else if(email==""){
+                    alert("Mohon isi Email.");
+                }else if(password==""){
+                    alert("Mohon isi Password.");
+                }else{
+                    alert("Selamat anda berhasil mendaftarkan diri.");
+                    setTimeout(window.location.reload(), 2000);
+                }
+            });
+        </script>
+    </body>
+</html>
